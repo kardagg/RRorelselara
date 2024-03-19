@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--VideoAndDataViewer 1.0-->
+<?VideoAndDataViewer?>
+<VideoAndDataViewer name="hopp">
+  <options>
+    <startTime>0</startTime>
+    <endTime>-1</endTime>
+    <scaleVideos>true</scaleVideos>
+    <slowMotionLevel>8</slowMotionLevel>
+  </options>
+  <content>
+    <analogFile info="" markPosition="1.3796827914353689">hopp.csv<analogChannel info="" show="true">Acc</analogChannel><analogChannel info="" show="true">Kraft</analogChannel></analogFile>
+    <video info="" markPosition="31.1591832">hopp.mp4</video>
+  </content>
+</VideoAndDataViewer>

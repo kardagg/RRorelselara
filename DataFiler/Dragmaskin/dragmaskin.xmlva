@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--VideoAndDataViewer 1.0-->
+<?VideoAndDataViewer?>
+<VideoAndDataViewer name="dragmaskin">
+  <options>
+    <startTime>0</startTime>
+    <endTime>-1</endTime>
+    <scaleVideos>true</scaleVideos>
+    <slowMotionLevel>8</slowMotionLevel>
+  </options>
+  <content>
+    <analogFile info="" markPosition="1.408826328310864">SynkAccKraft.csv<analogChannel info="" show="true">"AccKraft"</analogChannel><analogChannel info="" show="true">"Kraftgivare"</analogChannel></analogFile>
+    <video info="" markPosition="25.9970182">dragmaskin75kg.mp4</video>
+  </content>
+</VideoAndDataViewer>

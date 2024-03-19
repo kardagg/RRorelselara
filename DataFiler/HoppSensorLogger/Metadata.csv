@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs
+3,SM-S918B,1701089663336,2023-11-27_12-54-23,Europe/Stockholm,android,1.26.0,1270a9e8-7abf-4210-9d25-90cc906147b2,Accelerometer|Orientation|Annotation|TotalAcceleration|AccelerometerUncalibrated,10|10||10|10

@@ -1,0 +1,2 @@
+version,device name,recording time,platform,appVersion,device id,sensors,sampleRateMs
+3,SM-G998B,2023-01-31_09-11-34,android,1.12.0,1270a9e8-7abf-4210-9d25-90cc906147b2,Accelerometer|Location|Annotation|TotalAcceleration|AccelerometerUncalibrated,20|1000||20|20

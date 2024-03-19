@@ -1,0 +1,892 @@
+ID;Survived;PClass;Name;Sex;Age;SibSp;Parch;Fare;Embarked
+1;No;3;Braund, Mr. Owen Harris;Male;22;1;0;7,25;S
+2;Yes;1;Cumings, Mrs. John Bradley (Florence Briggs Thayer);Female;38;1;0;71,2833;C
+3;Yes;3;Heikkinen, Miss. Laina;Female;26;0;0;7,925;S
+4;Yes;1;Futrelle, Mrs. Jacques Heath (Lily May Peel);Female;35;1;0;53,1;S
+5;No;3;Allen, Mr. William Henry;Male;35;0;0;8,05;S
+6;No;3;Moran, Mr. James;Male;NA;0;0;8,4583;Q
+7;No;1;McCarthy, Mr. Timothy J;Male;54;0;0;51,8625;S
+8;No;3;Palsson, Master. Gosta Leonard;Male;2;3;1;21,075;S
+9;Yes;3;Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg);Female;27;0;2;11,1333;S
+10;Yes;2;Nasser, Mrs. Nicholas (Adele Achem);Female;14;1;0;30,0708;C
+11;Yes;3;Sandstrom, Miss. Marguerite Rut;Female;4;1;1;16,7;S
+12;Yes;1;Bonnell, Miss. Elizabeth;Female;58;0;0;26,55;S
+13;No;3;Saundercock, Mr. William Henry;Male;20;0;0;8,05;S
+14;No;3;Andersson, Mr. Anders Johan;Male;39;1;5;31,275;S
+15;No;3;Vestrom, Miss. Hulda Amanda Adolfina;Female;14;0;0;7,8542;S
+16;Yes;2;Hewlett, Mrs. (Mary D Kingcome) ;Female;55;0;0;16;S
+17;No;3;Rice, Master. Eugene;Male;2;4;1;29,125;Q
+18;Yes;2;Williams, Mr. Charles Eugene;Male;NA;0;0;13;S
+19;No;3;Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele);Female;31;1;0;18;S
+20;Yes;3;Masselmani, Mrs. Fatima;Female;NA;0;0;7,225;C
+21;No;2;Fynney, Mr. Joseph J;Male;35;0;0;26;S
+22;Yes;2;Beesley, Mr. Lawrence;Male;34;0;0;13;S
+23;Yes;3;McGowan, Miss. Anna "Annie";Female;15;0;0;8,0292;Q
+24;Yes;1;Sloper, Mr. William Thompson;Male;28;0;0;35,5;S
+25;No;3;Palsson, Miss. Torborg Danira;Female;8;3;1;21,075;S
+26;Yes;3;Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson);Female;38;1;5;31,3875;S
+27;No;3;Emir, Mr. Farred Chehab;Male;NA;0;0;7,225;C
+28;No;1;Fortune, Mr. Charles Alexander;Male;19;3;2;263;S
+29;Yes;3;O'Dwyer, Miss. Ellen "Nellie";Female;NA;0;0;7,8792;Q
+30;No;3;Todoroff, Mr. Lalio;Male;NA;0;0;7,8958;S
+31;No;1;Uruchurtu, Don. Manuel E;Male;40;0;0;27,7208;C
+32;Yes;1;Spencer, Mrs. William Augustus (Marie Eugenie);Female;NA;1;0;146,5208;C
+33;Yes;3;Glynn, Miss. Mary Agatha;Female;NA;0;0;7,75;Q
+34;No;2;Wheadon, Mr. Edward H;Male;66;0;0;10,5;S
+35;No;1;Meyer, Mr. Edgar Joseph;Male;28;1;0;82,1708;C
+36;No;1;Holverson, Mr. Alexander Oskar;Male;42;1;0;52;S
+37;Yes;3;Mamee, Mr. Hanna;Male;NA;0;0;7,2292;C
+38;No;3;Cann, Mr. Ernest Charles;Male;21;0;0;8,05;S
+39;No;3;Vander Planke, Miss. Augusta Maria;Female;18;2;0;18;S
+40;Yes;3;Nicola-Yarred, Miss. Jamila;Female;14;1;0;11,2417;C
+41;No;3;Ahlin, Mrs. Johan (Johanna Persdotter Larsson);Female;40;1;0;9,475;S
+42;No;2;Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott);Female;27;1;0;21;S
+43;No;3;Kraeff, Mr. Theodor;Male;NA;0;0;7,8958;C
+44;Yes;2;Laroche, Miss. Simonne Marie Anne Andree;Female;3;1;2;41,5792;C
+45;Yes;3;Devaney, Miss. Margaret Delia;Female;19;0;0;7,8792;Q
+46;No;3;Rogers, Mr. William John;Male;NA;0;0;8,05;S
+47;No;3;Lennon, Mr. Denis;Male;NA;1;0;15,5;Q
+48;Yes;3;O'Driscoll, Miss. Bridget;Female;NA;0;0;7,75;Q
+49;No;3;Samaan, Mr. Youssef;Male;NA;2;0;21,6792;C
+50;No;3;Arnold-Franchi, Mrs. Josef (Josefine Franchi);Female;18;1;0;17,8;S
+51;No;3;Panula, Master. Juha Niilo;Male;7;4;1;39,6875;S
+52;No;3;Nosworthy, Mr. Richard Cater;Male;21;0;0;7,8;S
+53;Yes;1;Harper, Mrs. Henry Sleeper (Myna Haxtun);Female;49;1;0;76,7292;C
+54;Yes;2;Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson);Female;29;1;0;26;S
+55;No;1;Ostby, Mr. Engelhart Cornelius;Male;65;0;1;61,9792;C
+56;Yes;1;Woolner, Mr. Hugh;Male;NA;0;0;35,5;S
+57;Yes;2;Rugg, Miss. Emily;Female;21;0;0;10,5;S
+58;No;3;Novel, Mr. Mansouer;Male;28,5;0;0;7,2292;C
+59;Yes;2;West, Miss. Constance Mirium;Female;5;1;2;27,75;S
+60;No;3;Goodwin, Master. William Frederick;Male;11;5;2;46,9;S
+61;No;3;Sirayanian, Mr. Orsen;Male;22;0;0;7,2292;C
+62;Yes;1;Icard, Miss. Amelie;Female;38;0;0;80;NA
+63;No;1;Harris, Mr. Henry Birkhardt;Male;45;1;0;83,475;S
+64;No;3;Skoog, Master. Harald;Male;4;3;2;27,9;S
+65;No;1;Stewart, Mr. Albert A;Male;NA;0;0;27,7208;C
+66;Yes;3;Moubarek, Master. Gerios;Male;NA;1;1;15,2458;C
+67;Yes;2;Nye, Mrs. (Elizabeth Ramell);Female;29;0;0;10,5;S
+68;No;3;Crease, Mr. Ernest James;Male;19;0;0;8,1583;S
+69;Yes;3;Andersson, Miss. Erna Alexandra;Female;17;4;2;7,925;S
+70;No;3;Kink, Mr. Vincenz;Male;26;2;0;8,6625;S
+71;No;2;Jenkin, Mr. Stephen Curnow;Male;32;0;0;10,5;S
+72;No;3;Goodwin, Miss. Lillian Amy;Female;16;5;2;46,9;S
+73;No;2;Hood, Mr. Ambrose Jr;Male;21;0;0;73,5;S
+74;No;3;Chronopoulos, Mr. Apostolos;Male;26;1;0;14,4542;C
+75;Yes;3;Bing, Mr. Lee;Male;32;0;0;56,4958;S
+76;No;3;Moen, Mr. Sigurd Hansen;Male;25;0;0;7,65;S
+77;No;3;Staneff, Mr. Ivan;Male;NA;0;0;7,8958;S
+78;No;3;Moutal, Mr. Rahamin Haim;Male;NA;0;0;8,05;S
+79;Yes;2;Caldwell, Master. Alden Gates;Male;0,83;0;2;29;S
+80;Yes;3;Dowdell, Miss. Elizabeth;Female;30;0;0;12,475;S
+81;No;3;Waelens, Mr. Achille;Male;22;0;0;9;S
+82;Yes;3;Sheerlinck, Mr. Jan Baptist;Male;29;0;0;9,5;S
+83;Yes;3;McDermott, Miss. Brigdet Delia;Female;NA;0;0;7,7875;Q
+84;No;1;Carrau, Mr. Francisco M;Male;28;0;0;47,1;S
+85;Yes;2;Ilett, Miss. Bertha;Female;17;0;0;10,5;S
+86;Yes;3;Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson);Female;33;3;0;15,85;S
+87;No;3;Ford, Mr. William Neal;Male;16;1;3;34,375;S
+88;No;3;Slocovski, Mr. Selman Francis;Male;NA;0;0;8,05;S
+89;Yes;1;Fortune, Miss. Mabel Helen;Female;23;3;2;263;S
+90;No;3;Celotti, Mr. Francesco;Male;24;0;0;8,05;S
+91;No;3;Christmann, Mr. Emil;Male;29;0;0;8,05;S
+92;No;3;Andreasson, Mr. Paul Edvin;Male;20;0;0;7,8542;S
+93;No;1;Chaffee, Mr. Herbert Fuller;Male;46;1;0;61,175;S
+94;No;3;Dean, Mr. Bertram Frank;Male;26;1;2;20,575;S
+95;No;3;Coxon, Mr. Daniel;Male;59;0;0;7,25;S
+96;No;3;Shorney, Mr. Charles Joseph;Male;NA;0;0;8,05;S
+97;No;1;Goldschmidt, Mr. George B;Male;71;0;0;34,6542;C
+98;Yes;1;Greenfield, Mr. William Bertram;Male;23;0;1;63,3583;C
+99;Yes;2;Doling, Mrs. John T (Ada Julia Bone);Female;34;0;1;23;S
+100;No;2;Kantor, Mr. Sinai;Male;34;1;0;26;S
+101;No;3;Petranec, Miss. Matilda;Female;28;0;0;7,8958;S
+102;No;3;Petroff, Mr. Pastcho ("Pentcho");Male;NA;0;0;7,8958;S
+103;No;1;White, Mr. Richard Frasar;Male;21;0;1;77,2875;S
+104;No;3;Johansson, Mr. Gustaf Joel;Male;33;0;0;8,6542;S
+105;No;3;Gustafsson, Mr. Anders Vilhelm;Male;37;2;0;7,925;S
+106;No;3;Mionoff, Mr. Stoytcho;Male;28;0;0;7,8958;S
+107;Yes;3;Salkjelsvik, Miss. Anna Kristine;Female;21;0;0;7,65;S
+108;Yes;3;Moss, Mr. Albert Johan;Male;NA;0;0;7,775;S
+109;No;3;Rekic, Mr. Tido;Male;38;0;0;7,8958;S
+110;Yes;3;Moran, Miss. Bertha;Female;NA;1;0;24,15;Q
+111;No;1;Porter, Mr. Walter Chamberlain;Male;47;0;0;52;S
+112;No;3;Zabour, Miss. Hileni;Female;14,5;1;0;14,4542;C
+113;No;3;Barton, Mr. David John;Male;22;0;0;8,05;S
+114;No;3;Jussila, Miss. Katriina;Female;20;1;0;9,825;S
+115;No;3;Attalah, Miss. Malake;Female;17;0;0;14,4583;C
+116;No;3;Pekoniemi, Mr. Edvard;Male;21;0;0;7,925;S
+117;No;3;Connors, Mr. Patrick;Male;70,5;0;0;7,75;Q
+118;No;2;Turpin, Mr. William John Robert;Male;29;1;0;21;S
+119;No;1;Baxter, Mr. Quigg Edmond;Male;24;0;1;247,5208;C
+120;No;3;Andersson, Miss. Ellis Anna Maria;Female;2;4;2;31,275;S
+121;No;2;Hickman, Mr. Stanley George;Male;21;2;0;73,5;S
+122;No;3;Moore, Mr. Leonard Charles;Male;NA;0;0;8,05;S
+123;No;2;Nasser, Mr. Nicholas;Male;32,5;1;0;30,0708;C
+124;Yes;2;Webber, Miss. Susan;Female;32,5;0;0;13;S
+125;No;1;White, Mr. Percival Wayland;Male;54;0;1;77,2875;S
+126;Yes;3;Nicola-Yarred, Master. Elias;Male;12;1;0;11,2417;C
+127;No;3;McMahon, Mr. Martin;Male;NA;0;0;7,75;Q
+128;Yes;3;Madsen, Mr. Fridtjof Arne;Male;24;0;0;7,1417;S
+129;Yes;3;Peter, Miss. Anna;Female;NA;1;1;22,3583;C
+130;No;3;Ekstrom, Mr. Johan;Male;45;0;0;6,975;S
+131;No;3;Drazenoic, Mr. Jozef;Male;33;0;0;7,8958;C
+132;No;3;Coelho, Mr. Domingos Fernandeo;Male;20;0;0;7,05;S
+133;No;3;Robins, Mrs. Alexander A (Grace Charity Laury);Female;47;1;0;14,5;S
+134;Yes;2;Weisz, Mrs. Leopold (Mathilde Francoise Pede);Female;29;1;0;26;S
+135;No;2;Sobey, Mr. Samuel James Hayden;Male;25;0;0;13;S
+136;No;2;Richard, Mr. Emile;Male;23;0;0;15,0458;C
+137;Yes;1;Newsom, Miss. Helen Monypeny;Female;19;0;2;26,2833;S
+138;No;1;Futrelle, Mr. Jacques Heath;Male;37;1;0;53,1;S
+139;No;3;Osen, Mr. Olaf Elon;Male;16;0;0;9,2167;S
+140;No;1;Giglio, Mr. Victor;Male;24;0;0;79,2;C
+141;No;3;Boulos, Mrs. Joseph (Sultana);Female;NA;0;2;15,2458;C
+142;Yes;3;Nysten, Miss. Anna Sofia;Female;22;0;0;7,75;S
+143;Yes;3;Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck);Female;24;1;0;15,85;S
+144;No;3;Burke, Mr. Jeremiah;Male;19;0;0;6,75;Q
+145;No;2;Andrew, Mr. Edgardo Samuel;Male;18;0;0;11,5;S
+146;No;2;Nicholls, Mr. Joseph Charles;Male;19;1;1;36,75;S
+147;Yes;3;Andersson, Mr. August Edvard ("Wennerstrom");Male;27;0;0;7,7958;S
+148;No;3;Ford, Miss. Robina Maggie "Ruby";Female;9;2;2;34,375;S
+149;No;2;Navratil, Mr. Michel ("Louis M Hoffman");Male;36,5;0;2;26;S
+150;No;2;Byles, Rev. Thomas Roussel Davids;Male;42;0;0;13;S
+151;No;2;Bateman, Rev. Robert James;Male;51;0;0;12,525;S
+152;Yes;1;Pears, Mrs. Thomas (Edith Wearne);Female;22;1;0;66,6;S
+153;No;3;Meo, Mr. Alfonzo;Male;55,5;0;0;8,05;S
+154;No;3;van Billiard, Mr. Austin Blyler;Male;40,5;0;2;14,5;S
+155;No;3;Olsen, Mr. Ole Martin;Male;NA;0;0;7,3125;S
+156;No;1;Williams, Mr. Charles Duane;Male;51;0;1;61,3792;C
+157;Yes;3;Gilnagh, Miss. Katherine "Katie";Female;16;0;0;7,7333;Q
+158;No;3;Corn, Mr. Harry;Male;30;0;0;8,05;S
+159;No;3;Smiljanic, Mr. Mile;Male;NA;0;0;8,6625;S
+160;No;3;Sage, Master. Thomas Henry;Male;NA;8;2;69,55;S
+161;No;3;Cribb, Mr. John Hatfield;Male;44;0;1;16,1;S
+162;Yes;2;Watt, Mrs. James (Elizabeth "Bessie" Inglis Milne);Female;40;0;0;15,75;S
+163;No;3;Bengtsson, Mr. John Viktor;Male;26;0;0;7,775;S
+164;No;3;Calic, Mr. Jovo;Male;17;0;0;8,6625;S
+165;No;3;Panula, Master. Eino Viljami;Male;1;4;1;39,6875;S
+166;Yes;3;Goldsmith, Master. Frank John William "Frankie";Male;9;0;2;20,525;S
+167;Yes;1;Chibnall, Mrs. (Edith Martha Bowerman);Female;NA;0;1;55;S
+168;No;3;Skoog, Mrs. William (Anna Bernhardina Karlsson);Female;45;1;4;27,9;S
+169;No;1;Baumann, Mr. John D;Male;NA;0;0;25,925;S
+170;No;3;Ling, Mr. Lee;Male;28;0;0;56,4958;S
+171;No;1;Van der hoef, Mr. Wyckoff;Male;61;0;0;33,5;S
+172;No;3;Rice, Master. Arthur;Male;4;4;1;29,125;Q
+173;Yes;3;Johnson, Miss. Eleanor Ileen;Female;1;1;1;11,1333;S
+174;No;3;Sivola, Mr. Antti Wilhelm;Male;21;0;0;7,925;S
+175;No;1;Smith, Mr. James Clinch;Male;56;0;0;30,6958;C
+176;No;3;Klasen, Mr. Klas Albin;Male;18;1;1;7,8542;S
+177;No;3;Lefebre, Master. Henry Forbes;Male;NA;3;1;25,4667;S
+178;No;1;Isham, Miss. Ann Elizabeth;Female;50;0;0;28,7125;C
+179;No;2;Hale, Mr. Reginald;Male;30;0;0;13;S
+180;No;3;Leonard, Mr. Lionel;Male;36;0;0;0;S
+181;No;3;Sage, Miss. Constance Gladys;Female;NA;8;2;69,55;S
+182;No;2;Pernot, Mr. Rene;Male;NA;0;0;15,05;C
+183;No;3;Asplund, Master. Clarence Gustaf Hugo;Male;9;4;2;31,3875;S
+184;Yes;2;Becker, Master. Richard F;Male;1;2;1;39;S
+185;Yes;3;Kink-Heilmann, Miss. Luise Gretchen;Female;4;0;2;22,025;S
+186;No;1;Rood, Mr. Hugh Roscoe;Male;NA;0;0;50;S
+187;Yes;3;O'Brien, Mrs. Thomas (Johanna "Hannah" Godfrey);Female;NA;1;0;15,5;Q
+188;Yes;1;Romaine, Mr. Charles Hallace ("Mr C Rolmane");Male;45;0;0;26,55;S
+189;No;3;Bourke, Mr. John;Male;40;1;1;15,5;Q
+190;No;3;Turcin, Mr. Stjepan;Male;36;0;0;7,8958;S
+191;Yes;2;Pinsky, Mrs. (Rosa);Female;32;0;0;13;S
+192;No;2;Carbines, Mr. William;Male;19;0;0;13;S
+193;Yes;3;Andersen-Jensen, Miss. Carla Christine Nielsine;Female;19;1;0;7,8542;S
+194;Yes;2;Navratil, Master. Michel M;Male;3;1;1;26;S
+195;Yes;1;Brown, Mrs. James Joseph (Margaret Tobin);Female;44;0;0;27,7208;C
+196;Yes;1;Lurette, Miss. Elise;Female;58;0;0;146,5208;C
+197;No;3;Mernagh, Mr. Robert;Male;NA;0;0;7,75;Q
+198;No;3;Olsen, Mr. Karl Siegwart Andreas;Male;42;0;1;8,4042;S
+199;Yes;3;Madigan, Miss. Margaret "Maggie";Female;NA;0;0;7,75;Q
+200;No;2;Yrois, Miss. Henriette ("Mrs Harbeck");Female;24;0;0;13;S
+201;No;3;Vande Walle, Mr. Nestor Cyriel;Male;28;0;0;9,5;S
+202;No;3;Sage, Mr. Frederick;Male;NA;8;2;69,55;S
+203;No;3;Johanson, Mr. Jakob Alfred;Male;34;0;0;6,4958;S
+204;No;3;Youseff, Mr. Gerious;Male;45,5;0;0;7,225;C
+205;Yes;3;Cohen, Mr. Gurshon "Gus";Male;18;0;0;8,05;S
+206;No;3;Strom, Miss. Telma Matilda;Female;2;0;1;10,4625;S
+207;No;3;Backstrom, Mr. Karl Alfred;Male;32;1;0;15,85;S
+208;Yes;3;Albimona, Mr. Nassef Cassem;Male;26;0;0;18,7875;C
+209;Yes;3;Carr, Miss. Helen "Ellen";Female;16;0;0;7,75;Q
+210;Yes;1;Blank, Mr. Henry;Male;40;0;0;31;C
+211;No;3;Ali, Mr. Ahmed;Male;24;0;0;7,05;S
+212;Yes;2;Cameron, Miss. Clear Annie;Female;35;0;0;21;S
+213;No;3;Perkin, Mr. John Henry;Male;22;0;0;7,25;S
+214;No;2;Givard, Mr. Hans Kristensen;Male;30;0;0;13;S
+215;No;3;Kiernan, Mr. Philip;Male;NA;1;0;7,75;Q
+216;Yes;1;Newell, Miss. Madeleine;Female;31;1;0;113,275;C
+217;Yes;3;Honkanen, Miss. Eliina;Female;27;0;0;7,925;S
+218;No;2;Jacobsohn, Mr. Sidney Samuel;Male;42;1;0;27;S
+219;Yes;1;Bazzani, Miss. Albina;Female;32;0;0;76,2917;C
+220;No;2;Harris, Mr. Walter;Male;30;0;0;10,5;S
+221;Yes;3;Sunderland, Mr. Victor Francis;Male;16;0;0;8,05;S
+222;No;2;Bracken, Mr. James H;Male;27;0;0;13;S
+223;No;3;Green, Mr. George Henry;Male;51;0;0;8,05;S
+224;No;3;Nenkoff, Mr. Christo;Male;NA;0;0;7,8958;S
+225;Yes;1;Hoyt, Mr. Frederick Maxfield;Male;38;1;0;90;S
+226;No;3;Berglund, Mr. Karl Ivar Sven;Male;22;0;0;9,35;S
+227;Yes;2;Mellors, Mr. William John;Male;19;0;0;10,5;S
+228;No;3;Lovell, Mr. John Hall ("Henry");Male;20,5;0;0;7,25;S
+229;No;2;Fahlstrom, Mr. Arne Jonas;Male;18;0;0;13;S
+230;No;3;Lefebre, Miss. Mathilde;Female;NA;3;1;25,4667;S
+231;Yes;1;Harris, Mrs. Henry Birkhardt (Irene Wallach);Female;35;1;0;83,475;S
+232;No;3;Larsson, Mr. Bengt Edvin;Male;29;0;0;7,775;S
+233;No;2;Sjostedt, Mr. Ernst Adolf;Male;59;0;0;13,5;S
+234;Yes;3;Asplund, Miss. Lillian Gertrud;Female;5;4;2;31,3875;S
+235;No;2;Leyson, Mr. Robert William Norman;Male;24;0;0;10,5;S
+236;No;3;Harknett, Miss. Alice Phoebe;Female;NA;0;0;7,55;S
+237;No;2;Hold, Mr. Stephen;Male;44;1;0;26;S
+238;Yes;2;Collyer, Miss. Marjorie "Lottie";Female;8;0;2;26,25;S
+239;No;2;Pengelly, Mr. Frederick William;Male;19;0;0;10,5;S
+240;No;2;Hunt, Mr. George Henry;Male;33;0;0;12,275;S
+241;No;3;Zabour, Miss. Thamine;Female;NA;1;0;14,4542;C
+242;Yes;3;Murphy, Miss. Katherine "Kate";Female;NA;1;0;15,5;Q
+243;No;2;Coleridge, Mr. Reginald Charles;Male;29;0;0;10,5;S
+244;No;3;Maenpaa, Mr. Matti Alexanteri;Male;22;0;0;7,125;S
+245;No;3;Attalah, Mr. Sleiman;Male;30;0;0;7,225;C
+246;No;1;Minahan, Dr. William Edward;Male;44;2;0;90;Q
+247;No;3;Lindahl, Miss. Agda Thorilda Viktoria;Female;25;0;0;7,775;S
+248;Yes;2;Hamalainen, Mrs. William (Anna);Female;24;0;2;14,5;S
+249;Yes;1;Beckwith, Mr. Richard Leonard;Male;37;1;1;52,5542;S
+250;No;2;Carter, Rev. Ernest Courtenay;Male;54;1;0;26;S
+251;No;3;Reed, Mr. James George;Male;NA;0;0;7,25;S
+252;No;3;Strom, Mrs. Wilhelm (Elna Matilda Persson);Female;29;1;1;10,4625;S
+253;No;1;Stead, Mr. William Thomas;Male;62;0;0;26,55;S
+254;No;3;Lobb, Mr. William Arthur;Male;30;1;0;16,1;S
+255;No;3;Rosblom, Mrs. Viktor (Helena Wilhelmina);Female;41;0;2;20,2125;S
+256;Yes;3;Touma, Mrs. Darwis (Hanne Youssef Razi);Female;29;0;2;15,2458;C
+257;Yes;1;Thorne, Mrs. Gertrude Maybelle;Female;NA;0;0;79,2;C
+258;Yes;1;Cherry, Miss. Gladys;Female;30;0;0;86,5;S
+259;Yes;1;Ward, Miss. Anna;Female;35;0;0;512,3292;C
+260;Yes;2;Parrish, Mrs. (Lutie Davis);Female;50;0;1;26;S
+261;No;3;Smith, Mr. Thomas;Male;NA;0;0;7,75;Q
+262;Yes;3;Asplund, Master. Edvin Rojj Felix;Male;3;4;2;31,3875;S
+263;No;1;Taussig, Mr. Emil;Male;52;1;1;79,65;S
+264;No;1;Harrison, Mr. William;Male;40;0;0;0;S
+265;No;3;Henry, Miss. Delia;Female;NA;0;0;7,75;Q
+266;No;2;Reeves, Mr. David;Male;36;0;0;10,5;S
+267;No;3;Panula, Mr. Ernesti Arvid;Male;16;4;1;39,6875;S
+268;Yes;3;Persson, Mr. Ernst Ulrik;Male;25;1;0;7,775;S
+269;Yes;1;Graham, Mrs. William Thompson (Edith Junkins);Female;58;0;1;153,4625;S
+270;Yes;1;Bissette, Miss. Amelia;Female;35;0;0;135,6333;S
+271;No;1;Cairns, Mr. Alexander;Male;NA;0;0;31;S
+272;Yes;3;Tornquist, Mr. William Henry;Male;25;0;0;0;S
+273;Yes;2;Mellinger, Mrs. (Elizabeth Anne Maidment);Female;41;0;1;19,5;S
+274;No;1;Natsch, Mr. Charles H;Male;37;0;1;29,7;C
+275;Yes;3;Healy, Miss. Hanora "Nora";Female;NA;0;0;7,75;Q
+276;Yes;1;Andrews, Miss. Kornelia Theodosia;Female;63;1;0;77,9583;S
+277;No;3;Lindblom, Miss. Augusta Charlotta;Female;45;0;0;7,75;S
+278;No;2;Parkes, Mr. Francis "Frank";Male;NA;0;0;0;S
+279;No;3;Rice, Master. Eric;Male;7;4;1;29,125;Q
+280;Yes;3;Abbott, Mrs. Stanton (Rosa Hunt);Female;35;1;1;20,25;S
+281;No;3;Duane, Mr. Frank;Male;65;0;0;7,75;Q
+282;No;3;Olsson, Mr. Nils Johan Goransson;Male;28;0;0;7,8542;S
+283;No;3;de Pelsmaeker, Mr. Alfons;Male;16;0;0;9,5;S
+284;Yes;3;Dorking, Mr. Edward Arthur;Male;19;0;0;8,05;S
+285;No;1;Smith, Mr. Richard William;Male;NA;0;0;26;S
+286;No;3;Stankovic, Mr. Ivan;Male;33;0;0;8,6625;C
+287;Yes;3;de Mulder, Mr. Theodore;Male;30;0;0;9,5;S
+288;No;3;Naidenoff, Mr. Penko;Male;22;0;0;7,8958;S
+289;Yes;2;Hosono, Mr. Masabumi;Male;42;0;0;13;S
+290;Yes;3;Connolly, Miss. Kate;Female;22;0;0;7,75;Q
+291;Yes;1;Barber, Miss. Ellen "Nellie";Female;26;0;0;78,85;S
+292;Yes;1;Bishop, Mrs. Dickinson H (Helen Walton);Female;19;1;0;91,0792;C
+293;No;2;Levy, Mr. Rene Jacques;Male;36;0;0;12,875;C
+294;No;3;Haas, Miss. Aloisia;Female;24;0;0;8,85;S
+295;No;3;Mineff, Mr. Ivan;Male;24;0;0;7,8958;S
+296;No;1;Lewy, Mr. Ervin G;Male;NA;0;0;27,7208;C
+297;No;3;Hanna, Mr. Mansour;Male;23,5;0;0;7,2292;C
+298;No;1;Allison, Miss. Helen Loraine;Female;2;1;2;151,55;S
+299;Yes;1;Saalfeld, Mr. Adolphe;Male;NA;0;0;30,5;S
+300;Yes;1;Baxter, Mrs. James (Helene DeLaudeniere Chaput);Female;50;0;1;247,5208;C
+301;Yes;3;Kelly, Miss. Anna Katherine "Annie Kate";Female;NA;0;0;7,75;Q
+302;Yes;3;McCoy, Mr. Bernard;Male;NA;2;0;23,25;Q
+303;No;3;Johnson, Mr. William Cahoone Jr;Male;19;0;0;0;S
+304;Yes;2;Keane, Miss. Nora A;Female;NA;0;0;12,35;Q
+305;No;3;Williams, Mr. Howard Hugh "Harry";Male;NA;0;0;8,05;S
+306;Yes;1;Allison, Master. Hudson Trevor;Male;0,92;1;2;151,55;S
+307;Yes;1;Fleming, Miss. Margaret;Female;NA;0;0;110,8833;C
+308;Yes;1;Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo);Female;17;1;0;108,9;C
+309;No;2;Abelson, Mr. Samuel;Male;30;1;0;24;C
+310;Yes;1;Francatelli, Miss. Laura Mabel;Female;30;0;0;56,9292;C
+311;Yes;1;Hays, Miss. Margaret Bechstein;Female;24;0;0;83,1583;C
+312;Yes;1;Ryerson, Miss. Emily Borie;Female;18;2;2;262,375;C
+313;No;2;Lahtinen, Mrs. William (Anna Sylfven);Female;26;1;1;26;S
+314;No;3;Hendekovic, Mr. Ignjac;Male;28;0;0;7,8958;S
+315;No;2;Hart, Mr. Benjamin;Male;43;1;1;26,25;S
+316;Yes;3;Nilsson, Miss. Helmina Josefina;Female;26;0;0;7,8542;S
+317;Yes;2;Kantor, Mrs. Sinai (Miriam Sternin);Female;24;1;0;26;S
+318;No;2;Moraweck, Dr. Ernest;Male;54;0;0;14;S
+319;Yes;1;Wick, Miss. Mary Natalie;Female;31;0;2;164,8667;S
+320;Yes;1;Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone);Female;40;1;1;134,5;C
+321;No;3;Dennis, Mr. Samuel;Male;22;0;0;7,25;S
+322;No;3;Danoff, Mr. Yoto;Male;27;0;0;7,8958;S
+323;Yes;2;Slayter, Miss. Hilda Mary;Female;30;0;0;12,35;Q
+324;Yes;2;Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh);Female;22;1;1;29;S
+325;No;3;Sage, Mr. George John Jr;Male;NA;8;2;69,55;S
+326;Yes;1;Young, Miss. Marie Grice;Female;36;0;0;135,6333;C
+327;No;3;Nysveen, Mr. Johan Hansen;Male;61;0;0;6,2375;S
+328;Yes;2;Ball, Mrs. (Ada E Hall);Female;36;0;0;13;S
+329;Yes;3;Goldsmith, Mrs. Frank John (Emily Alice Brown);Female;31;1;1;20,525;S
+330;Yes;1;Hippach, Miss. Jean Gertrude;Female;16;0;1;57,9792;C
+331;Yes;3;McCoy, Miss. Agnes;Female;NA;2;0;23,25;Q
+332;No;1;Partner, Mr. Austen;Male;45,5;0;0;28,5;S
+333;No;1;Graham, Mr. George Edward;Male;38;0;1;153,4625;S
+334;No;3;Vander Planke, Mr. Leo Edmondus;Male;16;2;0;18;S
+335;Yes;1;Frauenthal, Mrs. Henry William (Clara Heinsheimer);Female;NA;1;0;133,65;S
+336;No;3;Denkoff, Mr. Mitto;Male;NA;0;0;7,8958;S
+337;No;1;Pears, Mr. Thomas Clinton;Male;29;1;0;66,6;S
+338;Yes;1;Burns, Miss. Elizabeth Margaret;Female;41;0;0;134,5;C
+339;Yes;3;Dahl, Mr. Karl Edwart;Male;45;0;0;8,05;S
+340;No;1;Blackwell, Mr. Stephen Weart;Male;45;0;0;35,5;S
+341;Yes;2;Navratil, Master. Edmond Roger;Male;2;1;1;26;S
+342;Yes;1;Fortune, Miss. Alice Elizabeth;Female;24;3;2;263;S
+343;No;2;Collander, Mr. Erik Gustaf;Male;28;0;0;13;S
+344;No;2;Sedgwick, Mr. Charles Frederick Waddington;Male;25;0;0;13;S
+345;No;2;Fox, Mr. Stanley Hubert;Male;36;0;0;13;S
+346;Yes;2;Brown, Miss. Amelia "Mildred";Female;24;0;0;13;S
+347;Yes;2;Smith, Miss. Marion Elsie;Female;40;0;0;13;S
+348;Yes;3;Davison, Mrs. Thomas Henry (Mary E Finck);Female;NA;1;0;16,1;S
+349;Yes;3;Coutts, Master. William Loch "William";Male;3;1;1;15,9;S
+350;No;3;Dimic, Mr. Jovan;Male;42;0;0;8,6625;S
+351;No;3;Odahl, Mr. Nils Martin;Male;23;0;0;9,225;S
+352;No;1;Williams-Lambert, Mr. Fletcher Fellows;Male;NA;0;0;35;S
+353;No;3;Elias, Mr. Tannous;Male;15;1;1;7,2292;C
+354;No;3;Arnold-Franchi, Mr. Josef;Male;25;1;0;17,8;S
+355;No;3;Yousif, Mr. Wazli;Male;NA;0;0;7,225;C
+356;No;3;Vanden Steen, Mr. Leo Peter;Male;28;0;0;9,5;S
+357;Yes;1;Bowerman, Miss. Elsie Edith;Female;22;0;1;55;S
+358;No;2;Funk, Miss. Annie Clemmer;Female;38;0;0;13;S
+359;Yes;3;McGovern, Miss. Mary;Female;NA;0;0;7,8792;Q
+360;Yes;3;Mockler, Miss. Helen Mary "Ellie";Female;NA;0;0;7,8792;Q
+361;No;3;Skoog, Mr. Wilhelm;Male;40;1;4;27,9;S
+362;No;2;del Carlo, Mr. Sebastiano;Male;29;1;0;27,7208;C
+363;No;3;Barbara, Mrs. (Catherine David);Female;45;0;1;14,4542;C
+364;No;3;Asim, Mr. Adola;Male;35;0;0;7,05;S
+365;No;3;O'Brien, Mr. Thomas;Male;NA;1;0;15,5;Q
+366;No;3;Adahl, Mr. Mauritz Nils Martin;Male;30;0;0;7,25;S
+367;Yes;1;Warren, Mrs. Frank Manley (Anna Sophia Atkinson);Female;60;1;0;75,25;C
+368;Yes;3;Moussa, Mrs. (Mantoura Boulos);Female;NA;0;0;7,2292;C
+369;Yes;3;Jermyn, Miss. Annie;Female;NA;0;0;7,75;Q
+370;Yes;1;Aubart, Mme. Leontine Pauline;Female;24;0;0;69,3;C
+371;Yes;1;Harder, Mr. George Achilles;Male;25;1;0;55,4417;C
+372;No;3;Wiklund, Mr. Jakob Alfred;Male;18;1;0;6,4958;S
+373;No;3;Beavan, Mr. William Thomas;Male;19;0;0;8,05;S
+374;No;1;Ringhini, Mr. Sante;Male;22;0;0;135,6333;C
+375;No;3;Palsson, Miss. Stina Viola;Female;3;3;1;21,075;S
+376;Yes;1;Meyer, Mrs. Edgar Joseph (Leila Saks);Female;NA;1;0;82,1708;C
+377;Yes;3;Landergren, Miss. Aurora Adelia;Female;22;0;0;7,25;S
+378;No;1;Widener, Mr. Harry Elkins;Male;27;0;2;211,5;C
+379;No;3;Betros, Mr. Tannous;Male;20;0;0;4,0125;C
+380;No;3;Gustafsson, Mr. Karl Gideon;Male;19;0;0;7,775;S
+381;Yes;1;Bidois, Miss. Rosalie;Female;42;0;0;227,525;C
+382;Yes;3;Nakid, Miss. Maria ("Mary");Female;1;0;2;15,7417;C
+383;No;3;Tikkanen, Mr. Juho;Male;32;0;0;7,925;S
+384;Yes;1;Holverson, Mrs. Alexander Oskar (Mary Aline Towner);Female;35;1;0;52;S
+385;No;3;Plotcharsky, Mr. Vasil;Male;NA;0;0;7,8958;S
+386;No;2;Davies, Mr. Charles Henry;Male;18;0;0;73,5;S
+387;No;3;Goodwin, Master. Sidney Leonard;Male;1;5;2;46,9;S
+388;Yes;2;Buss, Miss. Kate;Female;36;0;0;13;S
+389;No;3;Sadlier, Mr. Matthew;Male;NA;0;0;7,7292;Q
+390;Yes;2;Lehmann, Miss. Bertha;Female;17;0;0;12;C
+391;Yes;1;Carter, Mr. William Ernest;Male;36;1;2;120;S
+392;Yes;3;Jansson, Mr. Carl Olof;Male;21;0;0;7,7958;S
+393;No;3;Gustafsson, Mr. Johan Birger;Male;28;2;0;7,925;S
+394;Yes;1;Newell, Miss. Marjorie;Female;23;1;0;113,275;C
+395;Yes;3;Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson);Female;24;0;2;16,7;S
+396;No;3;Johansson, Mr. Erik;Male;22;0;0;7,7958;S
+397;No;3;Olsson, Miss. Elina;Female;31;0;0;7,8542;S
+398;No;2;McKane, Mr. Peter David;Male;46;0;0;26;S
+399;No;2;Pain, Dr. Alfred;Male;23;0;0;10,5;S
+400;Yes;2;Trout, Mrs. William H (Jessie L);Female;28;0;0;12,65;S
+401;Yes;3;Niskanen, Mr. Juha;Male;39;0;0;7,925;S
+402;No;3;Adams, Mr. John;Male;26;0;0;8,05;S
+403;No;3;Jussila, Miss. Mari Aina;Female;21;1;0;9,825;S
+404;No;3;Hakkarainen, Mr. Pekka Pietari;Male;28;1;0;15,85;S
+405;No;3;Oreskovic, Miss. Marija;Female;20;0;0;8,6625;S
+406;No;2;Gale, Mr. Shadrach;Male;34;1;0;21;S
+407;No;3;Widegren, Mr. Carl/Charles Peter;Male;51;0;0;7,75;S
+408;Yes;2;Richards, Master. William Rowe;Male;3;1;1;18,75;S
+409;No;3;Birkeland, Mr. Hans Martin Monsen;Male;21;0;0;7,775;S
+410;No;3;Lefebre, Miss. Ida;Female;NA;3;1;25,4667;S
+411;No;3;Sdycoff, Mr. Todor;Male;NA;0;0;7,8958;S
+412;No;3;Hart, Mr. Henry;Male;NA;0;0;6,8583;Q
+413;Yes;1;Minahan, Miss. Daisy E;Female;33;1;0;90;Q
+414;No;2;Cunningham, Mr. Alfred Fleming;Male;NA;0;0;0;S
+415;Yes;3;Sundman, Mr. Johan Julian;Male;44;0;0;7,925;S
+416;No;3;Meek, Mrs. Thomas (Annie Louise Rowley);Female;NA;0;0;8,05;S
+417;Yes;2;Drew, Mrs. James Vivian (Lulu Thorne Christian);Female;34;1;1;32,5;S
+418;Yes;2;Silven, Miss. Lyyli Karoliina;Female;18;0;2;13;S
+419;No;2;Matthews, Mr. William John;Male;30;0;0;13;S
+420;No;3;Van Impe, Miss. Catharina;Female;10;0;2;24,15;S
+421;No;3;Gheorgheff, Mr. Stanio;Male;NA;0;0;7,8958;C
+422;No;3;Charters, Mr. David;Male;21;0;0;7,7333;Q
+423;No;3;Zimmerman, Mr. Leo;Male;29;0;0;7,875;S
+424;No;3;Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren);Female;28;1;1;14,4;S
+425;No;3;Rosblom, Mr. Viktor Richard;Male;18;1;1;20,2125;S
+426;No;3;Wiseman, Mr. Phillippe;Male;NA;0;0;7,25;S
+427;Yes;2;Clarke, Mrs. Charles V (Ada Maria Winfield);Female;28;1;0;26;S
+428;Yes;2;Phillips, Miss. Kate Florence ("Mrs Kate Louise Phillips Marshall");Female;19;0;0;26;S
+429;No;3;Flynn, Mr. James;Male;NA;0;0;7,75;Q
+430;Yes;3;Pickard, Mr. Berk (Berk Trembisky);Male;32;0;0;8,05;S
+431;Yes;1;Bjornstrom-Steffansson, Mr. Mauritz Hakan;Male;28;0;0;26,55;S
+432;Yes;3;Thorneycroft, Mrs. Percival (Florence Kate White);Female;NA;1;0;16,1;S
+433;Yes;2;Louch, Mrs. Charles Alexander (Alice Adelaide Slow);Female;42;1;0;26;S
+434;No;3;Kallio, Mr. Nikolai Erland;Male;17;0;0;7,125;S
+435;No;1;Silvey, Mr. William Baird;Male;50;1;0;55,9;S
+436;Yes;1;Carter, Miss. Lucile Polk;Female;14;1;2;120;S
+437;No;3;Ford, Miss. Doolina Margaret "Daisy";Female;21;2;2;34,375;S
+438;Yes;2;Richards, Mrs. Sidney (Emily Hocking);Female;24;2;3;18,75;S
+439;No;1;Fortune, Mr. Mark;Male;64;1;4;263;S
+440;No;2;Kvillner, Mr. Johan Henrik Johannesson;Male;31;0;0;10,5;S
+441;Yes;2;Hart, Mrs. Benjamin (Esther Ada Bloomfield);Female;45;1;1;26,25;S
+442;No;3;Hampe, Mr. Leon;Male;20;0;0;9,5;S
+443;No;3;Petterson, Mr. Johan Emil;Male;25;1;0;7,775;S
+444;Yes;2;Reynaldo, Ms. Encarnacion;Female;28;0;0;13;S
+445;Yes;3;Johannesen-Bratthammer, Mr. Bernt;Male;NA;0;0;8,1125;S
+446;Yes;1;Dodge, Master. Washington;Male;4;0;2;81,8583;S
+447;Yes;2;Mellinger, Miss. Madeleine Violet;Female;13;0;1;19,5;S
+448;Yes;1;Seward, Mr. Frederic Kimber;Male;34;0;0;26,55;S
+449;Yes;3;Baclini, Miss. Marie Catherine;Female;5;2;1;19,2583;C
+450;Yes;1;Peuchen, Major. Arthur Godfrey;Male;52;0;0;30,5;S
+451;No;2;West, Mr. Edwy Arthur;Male;36;1;2;27,75;S
+452;No;3;Hagland, Mr. Ingvald Olai Olsen;Male;NA;1;0;19,9667;S
+453;No;1;Foreman, Mr. Benjamin Laventall;Male;30;0;0;27,75;C
+454;Yes;1;Goldenberg, Mr. Samuel L;Male;49;1;0;89,1042;C
+455;No;3;Peduzzi, Mr. Joseph;Male;NA;0;0;8,05;S
+456;Yes;3;Jalsevac, Mr. Ivan;Male;29;0;0;7,8958;C
+457;No;1;Millet, Mr. Francis Davis;Male;65;0;0;26,55;S
+458;Yes;1;Kenyon, Mrs. Frederick R (Marion);Female;NA;1;0;51,8625;S
+459;Yes;2;Toomey, Miss. Ellen;Female;50;0;0;10,5;S
+460;No;3;O'Connor, Mr. Maurice;Male;NA;0;0;7,75;Q
+461;Yes;1;Anderson, Mr. Harry;Male;48;0;0;26,55;S
+462;No;3;Morley, Mr. William;Male;34;0;0;8,05;S
+463;No;1;Gee, Mr. Arthur H;Male;47;0;0;38,5;S
+464;No;2;Milling, Mr. Jacob Christian;Male;48;0;0;13;S
+465;No;3;Maisner, Mr. Simon;Male;NA;0;0;8,05;S
+466;No;3;Goncalves, Mr. Manuel Estanslas;Male;38;0;0;7,05;S
+467;No;2;Campbell, Mr. William;Male;NA;0;0;0;S
+468;No;1;Smart, Mr. John Montgomery;Male;56;0;0;26,55;S
+469;No;3;Scanlan, Mr. James;Male;NA;0;0;7,725;Q
+470;Yes;3;Baclini, Miss. Helene Barbara;Female;0,75;2;1;19,2583;C
+471;No;3;Keefe, Mr. Arthur;Male;NA;0;0;7,25;S
+472;No;3;Cacic, Mr. Luka;Male;38;0;0;8,6625;S
+473;Yes;2;West, Mrs. Edwy Arthur (Ada Mary Worth);Female;33;1;2;27,75;S
+474;Yes;2;Jerwan, Mrs. Amin S (Marie Marthe Thuillard);Female;23;0;0;13,7917;C
+475;No;3;Strandberg, Miss. Ida Sofia;Female;22;0;0;9,8375;S
+476;No;1;Clifford, Mr. George Quincy;Male;NA;0;0;52;S
+477;No;2;Renouf, Mr. Peter Henry;Male;34;1;0;21;S
+478;No;3;Braund, Mr. Lewis Richard;Male;29;1;0;7,0458;S
+479;No;3;Karlsson, Mr. Nils August;Male;22;0;0;7,5208;S
+480;Yes;3;Hirvonen, Miss. Hildur E;Female;2;0;1;12,2875;S
+481;No;3;Goodwin, Master. Harold Victor;Male;9;5;2;46,9;S
+482;No;2;Frost, Mr. Anthony Wood "Archie";Male;NA;0;0;0;S
+483;No;3;Rouse, Mr. Richard Henry;Male;50;0;0;8,05;S
+484;Yes;3;Turkula, Mrs. (Hedwig);Female;63;0;0;9,5875;S
+485;Yes;1;Bishop, Mr. Dickinson H;Male;25;1;0;91,0792;C
+486;No;3;Lefebre, Miss. Jeannie;Female;NA;3;1;25,4667;S
+487;Yes;1;Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby);Female;35;1;0;90;S
+488;No;1;Kent, Mr. Edward Austin;Male;58;0;0;29,7;C
+489;No;3;Somerton, Mr. Francis William;Male;30;0;0;8,05;S
+490;Yes;3;Coutts, Master. Eden Leslie "Neville";Male;9;1;1;15,9;S
+491;No;3;Hagland, Mr. Konrad Mathias Reiersen;Male;NA;1;0;19,9667;S
+492;No;3;Windelov, Mr. Einar;Male;21;0;0;7,25;S
+493;No;1;Molson, Mr. Harry Markland;Male;55;0;0;30,5;S
+494;No;1;Artagaveytia, Mr. Ramon;Male;71;0;0;49,5042;C
+495;No;3;Stanley, Mr. Edward Roland;Male;21;0;0;8,05;S
+496;No;3;Yousseff, Mr. Gerious;Male;NA;0;0;14,4583;C
+497;Yes;1;Eustis, Miss. Elizabeth Mussey;Female;54;1;0;78,2667;C
+498;No;3;Shellard, Mr. Frederick William;Male;NA;0;0;15,1;S
+499;No;1;Allison, Mrs. Hudson J C (Bessie Waldo Daniels);Female;25;1;2;151,55;S
+500;No;3;Svensson, Mr. Olof;Male;24;0;0;7,7958;S
+501;No;3;Calic, Mr. Petar;Male;17;0;0;8,6625;S
+502;No;3;Canavan, Miss. Mary;Female;21;0;0;7,75;Q
+503;No;3;O'Sullivan, Miss. Bridget Mary;Female;NA;0;0;7,6292;Q
+504;No;3;Laitinen, Miss. Kristina Sofia;Female;37;0;0;9,5875;S
+505;Yes;1;Maioni, Miss. Roberta;Female;16;0;0;86,5;S
+506;No;1;Penasco y Castellana, Mr. Victor de Satode;Male;18;1;0;108,9;C
+507;Yes;2;Quick, Mrs. Frederick Charles (Jane Richards);Female;33;0;2;26;S
+508;Yes;1;Bradley, Mr. George ("George Arthur Brayton");Male;NA;0;0;26,55;S
+509;No;3;Olsen, Mr. Henry Margido;Male;28;0;0;22,525;S
+510;Yes;3;Lang, Mr. Fang;Male;26;0;0;56,4958;S
+511;Yes;3;Daly, Mr. Eugene Patrick;Male;29;0;0;7,75;Q
+512;No;3;Webber, Mr. James;Male;NA;0;0;8,05;S
+513;Yes;1;McGough, Mr. James Robert;Male;36;0;0;26,2875;S
+514;Yes;1;Rothschild, Mrs. Martin (Elizabeth L. Barrett);Female;54;1;0;59,4;C
+515;No;3;Coleff, Mr. Satio;Male;24;0;0;7,4958;S
+516;No;1;Walker, Mr. William Anderson;Male;47;0;0;34,0208;S
+517;Yes;2;Lemore, Mrs. (Amelia Milley);Female;34;0;0;10,5;S
+518;No;3;Ryan, Mr. Patrick;Male;NA;0;0;24,15;Q
+519;Yes;2;Angle, Mrs. William A (Florence "Mary" Agnes Hughes);Female;36;1;0;26;S
+520;No;3;Pavlovic, Mr. Stefo;Male;32;0;0;7,8958;S
+521;Yes;1;Perreault, Miss. Anne;Female;30;0;0;93,5;S
+522;No;3;Vovk, Mr. Janko;Male;22;0;0;7,8958;S
+523;No;3;Lahoud, Mr. Sarkis;Male;NA;0;0;7,225;C
+524;Yes;1;Hippach, Mrs. Louis Albert (Ida Sophia Fischer);Female;44;0;1;57,9792;C
+525;No;3;Kassem, Mr. Fared;Male;NA;0;0;7,2292;C
+526;No;3;Farrell, Mr. James;Male;40,5;0;0;7,75;Q
+527;Yes;2;Ridsdale, Miss. Lucy;Female;50;0;0;10,5;S
+528;No;1;Farthing, Mr. John;Male;NA;0;0;221,7792;S
+529;No;3;Salonen, Mr. Johan Werner;Male;39;0;0;7,925;S
+530;No;2;Hocking, Mr. Richard George;Male;23;2;1;11,5;S
+531;Yes;2;Quick, Miss. Phyllis May;Female;2;1;1;26;S
+532;No;3;Toufik, Mr. Nakli;Male;NA;0;0;7,2292;C
+533;No;3;Elias, Mr. Joseph Jr;Male;17;1;1;7,2292;C
+534;Yes;3;Peter, Mrs. Catherine (Catherine Rizk);Female;NA;0;2;22,3583;C
+535;No;3;Cacic, Miss. Marija;Female;30;0;0;8,6625;S
+536;Yes;2;Hart, Miss. Eva Miriam;Female;7;0;2;26,25;S
+537;No;1;Butt, Major. Archibald Willingham;Male;45;0;0;26,55;S
+538;Yes;1;LeRoy, Miss. Bertha;Female;30;0;0;106,425;C
+539;No;3;Risien, Mr. Samuel Beard;Male;NA;0;0;14,5;S
+540;Yes;1;Frolicher, Miss. Hedwig Margaritha;Female;22;0;2;49,5;C
+541;Yes;1;Crosby, Miss. Harriet R;Female;36;0;2;71;S
+542;No;3;Andersson, Miss. Ingeborg Constanzia;Female;9;4;2;31,275;S
+543;No;3;Andersson, Miss. Sigrid Elisabeth;Female;11;4;2;31,275;S
+544;Yes;2;Beane, Mr. Edward;Male;32;1;0;26;S
+545;No;1;Douglas, Mr. Walter Donald;Male;50;1;0;106,425;C
+546;No;1;Nicholson, Mr. Arthur Ernest;Male;64;0;0;26;S
+547;Yes;2;Beane, Mrs. Edward (Ethel Clarke);Female;19;1;0;26;S
+548;Yes;2;Padro y Manent, Mr. Julian;Male;NA;0;0;13,8625;C
+549;No;3;Goldsmith, Mr. Frank John;Male;33;1;1;20,525;S
+550;Yes;2;Davies, Master. John Morgan Jr;Male;8;1;1;36,75;S
+551;Yes;1;Thayer, Mr. John Borland Jr;Male;17;0;2;110,8833;C
+552;No;2;Sharp, Mr. Percival James R;Male;27;0;0;26;S
+553;No;3;O'Brien, Mr. Timothy;Male;NA;0;0;7,8292;Q
+554;Yes;3;Leeni, Mr. Fahim ("Philip Zenni");Male;22;0;0;7,225;C
+555;Yes;3;Ohman, Miss. Velin;Female;22;0;0;7,775;S
+556;No;1;Wright, Mr. George;Male;62;0;0;26,55;S
+557;Yes;1;Duff Gordon, Lady. (Lucille Christiana Sutherland) ("Mrs Morgan");Female;48;1;0;39,6;C
+558;No;1;Robbins, Mr. Victor;Male;NA;0;0;227,525;C
+559;Yes;1;Taussig, Mrs. Emil (Tillie Mandelbaum);Female;39;1;1;79,65;S
+560;Yes;3;de Messemaeker, Mrs. Guillaume Joseph (Emma);Female;36;1;0;17,4;S
+561;No;3;Morrow, Mr. Thomas Rowan;Male;NA;0;0;7,75;Q
+562;No;3;Sivic, Mr. Husein;Male;40;0;0;7,8958;S
+563;No;2;Norman, Mr. Robert Douglas;Male;28;0;0;13,5;S
+564;No;3;Simmons, Mr. John;Male;NA;0;0;8,05;S
+565;No;3;Meanwell, Miss. (Marion Ogden);Female;NA;0;0;8,05;S
+566;No;3;Davies, Mr. Alfred J;Male;24;2;0;24,15;S
+567;No;3;Stoytcheff, Mr. Ilia;Male;19;0;0;7,8958;S
+568;No;3;Palsson, Mrs. Nils (Alma Cornelia Berglund);Female;29;0;4;21,075;S
+569;No;3;Doharr, Mr. Tannous;Male;NA;0;0;7,2292;C
+570;Yes;3;Jonsson, Mr. Carl;Male;32;0;0;7,8542;S
+571;Yes;2;Harris, Mr. George;Male;62;0;0;10,5;S
+572;Yes;1;Appleton, Mrs. Edward Dale (Charlotte Lamson);Female;53;2;0;51,4792;S
+573;Yes;1;Flynn, Mr. John Irwin ("Irving");Male;36;0;0;26,3875;S
+574;Yes;3;Kelly, Miss. Mary;Female;NA;0;0;7,75;Q
+575;No;3;Rush, Mr. Alfred George John;Male;16;0;0;8,05;S
+576;No;3;Patchett, Mr. George;Male;19;0;0;14,5;S
+577;Yes;2;Garside, Miss. Ethel;Female;34;0;0;13;S
+578;Yes;1;Silvey, Mrs. William Baird (Alice Munger);Female;39;1;0;55,9;S
+579;No;3;Caram, Mrs. Joseph (Maria Elias);Female;NA;1;0;14,4583;C
+580;Yes;3;Jussila, Mr. Eiriik;Male;32;0;0;7,925;S
+581;Yes;2;Christy, Miss. Julie Rachel;Female;25;1;1;30;S
+582;Yes;1;Thayer, Mrs. John Borland (Marian Longstreth Morris);Female;39;1;1;110,8833;C
+583;No;2;Downton, Mr. William James;Male;54;0;0;26;S
+584;No;1;Ross, Mr. John Hugo;Male;36;0;0;40,125;C
+585;No;3;Paulner, Mr. Uscher;Male;NA;0;0;8,7125;C
+586;Yes;1;Taussig, Miss. Ruth;Female;18;0;2;79,65;S
+587;No;2;Jarvis, Mr. John Denzil;Male;47;0;0;15;S
+588;Yes;1;Frolicher-Stehli, Mr. Maxmillian;Male;60;1;1;79,2;C
+589;No;3;Gilinski, Mr. Eliezer;Male;22;0;0;8,05;S
+590;No;3;Murdlin, Mr. Joseph;Male;NA;0;0;8,05;S
+591;No;3;Rintamaki, Mr. Matti;Male;35;0;0;7,125;S
+592;Yes;1;Stephenson, Mrs. Walter Bertram (Martha Eustis);Female;52;1;0;78,2667;C
+593;No;3;Elsbury, Mr. William James;Male;47;0;0;7,25;S
+594;No;3;Bourke, Miss. Mary;Female;NA;0;2;7,75;Q
+595;No;2;Chapman, Mr. John Henry;Male;37;1;0;26;S
+596;No;3;Van Impe, Mr. Jean Baptiste;Male;36;1;1;24,15;S
+597;Yes;2;Leitch, Miss. Jessie Wills;Female;NA;0;0;33;S
+598;No;3;Johnson, Mr. Alfred;Male;49;0;0;0;S
+599;No;3;Boulos, Mr. Hanna;Male;NA;0;0;7,225;C
+600;Yes;1;Duff Gordon, Sir. Cosmo Edmund ("Mr Morgan");Male;49;1;0;56,9292;C
+601;Yes;2;Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy);Female;24;2;1;27;S
+602;No;3;Slabenoff, Mr. Petco;Male;NA;0;0;7,8958;S
+603;No;1;Harrington, Mr. Charles H;Male;NA;0;0;42,4;S
+604;No;3;Torber, Mr. Ernst William;Male;44;0;0;8,05;S
+605;Yes;1;Homer, Mr. Harry ("Mr E Haven");Male;35;0;0;26,55;C
+606;No;3;Lindell, Mr. Edvard Bengtsson;Male;36;1;0;15,55;S
+607;No;3;Karaic, Mr. Milan;Male;30;0;0;7,8958;S
+608;Yes;1;Daniel, Mr. Robert Williams;Male;27;0;0;30,5;S
+609;Yes;2;Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue);Female;22;1;2;41,5792;C
+610;Yes;1;Shutes, Miss. Elizabeth W;Female;40;0;0;153,4625;S
+611;No;3;Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren);Female;39;1;5;31,275;S
+612;No;3;Jardin, Mr. Jose Neto;Male;NA;0;0;7,05;S
+613;Yes;3;Murphy, Miss. Margaret Jane;Female;NA;1;0;15,5;Q
+614;No;3;Horgan, Mr. John;Male;NA;0;0;7,75;Q
+615;No;3;Brocklebank, Mr. William Alfred;Male;35;0;0;8,05;S
+616;Yes;2;Herman, Miss. Alice;Female;24;1;2;65;S
+617;No;3;Danbom, Mr. Ernst Gilbert;Male;34;1;1;14,4;S
+618;No;3;Lobb, Mrs. William Arthur (Cordelia K Stanlick);Female;26;1;0;16,1;S
+619;Yes;2;Becker, Miss. Marion Louise;Female;4;2;1;39;S
+620;No;2;Gavey, Mr. Lawrence;Male;26;0;0;10,5;S
+621;No;3;Yasbeck, Mr. Antoni;Male;27;1;0;14,4542;C
+622;Yes;1;Kimball, Mr. Edwin Nelson Jr;Male;42;1;0;52,5542;S
+623;Yes;3;Nakid, Mr. Sahid;Male;20;1;1;15,7417;C
+624;No;3;Hansen, Mr. Henry Damsgaard;Male;21;0;0;7,8542;S
+625;No;3;Bowen, Mr. David John "Dai";Male;21;0;0;16,1;S
+626;No;1;Sutton, Mr. Frederick;Male;61;0;0;32,3208;S
+627;No;2;Kirkland, Rev. Charles Leonard;Male;57;0;0;12,35;Q
+628;Yes;1;Longley, Miss. Gretchen Fiske;Female;21;0;0;77,9583;S
+629;No;3;Bostandyeff, Mr. Guentcho;Male;26;0;0;7,8958;S
+630;No;3;O'Connell, Mr. Patrick D;Male;NA;0;0;7,7333;Q
+631;Yes;1;Barkworth, Mr. Algernon Henry Wilson;Male;80;0;0;30;S
+632;No;3;Lundahl, Mr. Johan Svensson;Male;51;0;0;7,0542;S
+633;Yes;1;Stahelin-Maeglin, Dr. Max;Male;32;0;0;30,5;C
+634;No;1;Parr, Mr. William Henry Marsh;Male;NA;0;0;0;S
+635;No;3;Skoog, Miss. Mabel;Female;9;3;2;27,9;S
+636;Yes;2;Davis, Miss. Mary;Female;28;0;0;13;S
+637;No;3;Leinonen, Mr. Antti Gustaf;Male;32;0;0;7,925;S
+638;No;2;Collyer, Mr. Harvey;Male;31;1;1;26,25;S
+639;No;3;Panula, Mrs. Juha (Maria Emilia Ojala);Female;41;0;5;39,6875;S
+640;No;3;Thorneycroft, Mr. Percival;Male;NA;1;0;16,1;S
+641;No;3;Jensen, Mr. Hans Peder;Male;20;0;0;7,8542;S
+642;Yes;1;Sagesser, Mlle. Emma;Female;24;0;0;69,3;C
+643;No;3;Skoog, Miss. Margit Elizabeth;Female;2;3;2;27,9;S
+644;Yes;3;Foo, Mr. Choong;Male;NA;0;0;56,4958;S
+645;Yes;3;Baclini, Miss. Eugenie;Female;0,75;2;1;19,2583;C
+646;Yes;1;Harper, Mr. Henry Sleeper;Male;48;1;0;76,7292;C
+647;No;3;Cor, Mr. Liudevit;Male;19;0;0;7,8958;S
+648;Yes;1;Simonius-Blumer, Col. Oberst Alfons;Male;56;0;0;35,5;C
+649;No;3;Willey, Mr. Edward;Male;NA;0;0;7,55;S
+650;Yes;3;Stanley, Miss. Amy Zillah Elsie;Female;23;0;0;7,55;S
+651;No;3;Mitkoff, Mr. Mito;Male;NA;0;0;7,8958;S
+652;Yes;2;Doling, Miss. Elsie;Female;18;0;1;23;S
+653;No;3;Kalvik, Mr. Johannes Halvorsen;Male;21;0;0;8,4333;S
+654;Yes;3;O'Leary, Miss. Hanora "Norah";Female;NA;0;0;7,8292;Q
+655;No;3;Hegarty, Miss. Hanora "Nora";Female;18;0;0;6,75;Q
+656;No;2;Hickman, Mr. Leonard Mark;Male;24;2;0;73,5;S
+657;No;3;Radeff, Mr. Alexander;Male;NA;0;0;7,8958;S
+658;No;3;Bourke, Mrs. John (Catherine);Female;32;1;1;15,5;Q
+659;No;2;Eitemiller, Mr. George Floyd;Male;23;0;0;13;S
+660;No;1;Newell, Mr. Arthur Webster;Male;58;0;2;113,275;C
+661;Yes;1;Frauenthal, Dr. Henry William;Male;50;2;0;133,65;S
+662;No;3;Badt, Mr. Mohamed;Male;40;0;0;7,225;C
+663;No;1;Colley, Mr. Edward Pomeroy;Male;47;0;0;25,5875;S
+664;No;3;Coleff, Mr. Peju;Male;36;0;0;7,4958;S
+665;Yes;3;Lindqvist, Mr. Eino William;Male;20;1;0;7,925;S
+666;No;2;Hickman, Mr. Lewis;Male;32;2;0;73,5;S
+667;No;2;Butler, Mr. Reginald Fenton;Male;25;0;0;13;S
+668;No;3;Rommetvedt, Mr. Knud Paust;Male;NA;0;0;7,775;S
+669;No;3;Cook, Mr. Jacob;Male;43;0;0;8,05;S
+670;Yes;1;Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright);Female;NA;1;0;52;S
+671;Yes;2;Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford);Female;40;1;1;39;S
+672;No;1;Davidson, Mr. Thornton;Male;31;1;0;52;S
+673;No;2;Mitchell, Mr. Henry Michael;Male;70;0;0;10,5;S
+674;Yes;2;Wilhelms, Mr. Charles;Male;31;0;0;13;S
+675;No;2;Watson, Mr. Ennis Hastings;Male;NA;0;0;0;S
+676;No;3;Edvardsson, Mr. Gustaf Hjalmar;Male;18;0;0;7,775;S
+677;No;3;Sawyer, Mr. Frederick Charles;Male;24,5;0;0;8,05;S
+678;Yes;3;Turja, Miss. Anna Sofia;Female;18;0;0;9,8417;S
+679;No;3;Goodwin, Mrs. Frederick (Augusta Tyler);Female;43;1;6;46,9;S
+680;Yes;1;Cardeza, Mr. Thomas Drake Martinez;Male;36;0;1;512,3292;C
+681;No;3;Peters, Miss. Katie;Female;NA;0;0;8,1375;Q
+682;Yes;1;Hassab, Mr. Hammad;Male;27;0;0;76,7292;C
+683;No;3;Olsvigen, Mr. Thor Anderson;Male;20;0;0;9,225;S
+684;No;3;Goodwin, Mr. Charles Edward;Male;14;5;2;46,9;S
+685;No;2;Brown, Mr. Thomas William Solomon;Male;60;1;1;39;S
+686;No;2;Laroche, Mr. Joseph Philippe Lemercier;Male;25;1;2;41,5792;C
+687;No;3;Panula, Mr. Jaako Arnold;Male;14;4;1;39,6875;S
+688;No;3;Dakic, Mr. Branko;Male;19;0;0;10,1708;S
+689;No;3;Fischer, Mr. Eberhard Thelander;Male;18;0;0;7,7958;S
+690;Yes;1;Madill, Miss. Georgette Alexandra;Female;15;0;1;211,3375;S
+691;Yes;1;Dick, Mr. Albert Adrian;Male;31;1;0;57;S
+692;Yes;3;Karun, Miss. Manca;Female;4;0;1;13,4167;C
+693;Yes;3;Lam, Mr. Ali;Male;NA;0;0;56,4958;S
+694;No;3;Saad, Mr. Khalil;Male;25;0;0;7,225;C
+695;No;1;Weir, Col. John;Male;60;0;0;26,55;S
+696;No;2;Chapman, Mr. Charles Henry;Male;52;0;0;13,5;S
+697;No;3;Kelly, Mr. James;Male;44;0;0;8,05;S
+698;Yes;3;Mullens, Miss. Katherine "Katie";Female;NA;0;0;7,7333;Q
+699;No;1;Thayer, Mr. John Borland;Male;49;1;1;110,8833;C
+700;No;3;Humblen, Mr. Adolf Mathias Nicolai Olsen;Male;42;0;0;7,65;S
+701;Yes;1;Astor, Mrs. John Jacob (Madeleine Talmadge Force);Female;18;1;0;227,525;C
+702;Yes;1;Silverthorne, Mr. Spencer Victor;Male;35;0;0;26,2875;S
+703;No;3;Barbara, Miss. Saiide;Female;18;0;1;14,4542;C
+704;No;3;Gallagher, Mr. Martin;Male;25;0;0;7,7417;Q
+705;No;3;Hansen, Mr. Henrik Juul;Male;26;1;0;7,8542;S
+706;No;2;Morley, Mr. Henry Samuel ("Mr Henry Marshall");Male;39;0;0;26;S
+707;Yes;2;Kelly, Mrs. Florence "Fannie";Female;45;0;0;13,5;S
+708;Yes;1;Calderhead, Mr. Edward Pennington;Male;42;0;0;26,2875;S
+709;Yes;1;Cleaver, Miss. Alice;Female;22;0;0;151,55;S
+710;Yes;3;Moubarek, Master. Halim Gonios ("William George");Male;NA;1;1;15,2458;C
+711;Yes;1;Mayne, Mlle. Berthe Antonine ("Mrs de Villiers");Female;24;0;0;49,5042;C
+712;No;1;Klaber, Mr. Herman;Male;NA;0;0;26,55;S
+713;Yes;1;Taylor, Mr. Elmer Zebley;Male;48;1;0;52;S
+714;No;3;Larsson, Mr. August Viktor;Male;29;0;0;9,4833;S
+715;No;2;Greenberg, Mr. Samuel;Male;52;0;0;13;S
+716;No;3;Soholt, Mr. Peter Andreas Lauritz Andersen;Male;19;0;0;7,65;S
+717;Yes;1;Endres, Miss. Caroline Louise;Female;38;0;0;227,525;C
+718;Yes;2;Troutt, Miss. Edwina Celia "Winnie";Female;27;0;0;10,5;S
+719;No;3;McEvoy, Mr. Michael;Male;NA;0;0;15,5;Q
+720;No;3;Johnson, Mr. Malkolm Joackim;Male;33;0;0;7,775;S
+721;Yes;2;Harper, Miss. Annie Jessie "Nina";Female;6;0;1;33;S
+722;No;3;Jensen, Mr. Svend Lauritz;Male;17;1;0;7,0542;S
+723;No;2;Gillespie, Mr. William Henry;Male;34;0;0;13;S
+724;No;2;Hodges, Mr. Henry Price;Male;50;0;0;13;S
+725;Yes;1;Chambers, Mr. Norman Campbell;Male;27;1;0;53,1;S
+726;No;3;Oreskovic, Mr. Luka;Male;20;0;0;8,6625;S
+727;Yes;2;Renouf, Mrs. Peter Henry (Lillian Jefferys);Female;30;3;0;21;S
+728;Yes;3;Mannion, Miss. Margareth;Female;NA;0;0;7,7375;Q
+729;No;2;Bryhl, Mr. Kurt Arnold Gottfrid;Male;25;1;0;26;S
+730;No;3;Ilmakangas, Miss. Pieta Sofia;Female;25;1;0;7,925;S
+731;Yes;1;Allen, Miss. Elisabeth Walton;Female;29;0;0;211,3375;S
+732;No;3;Hassan, Mr. Houssein G N;Male;11;0;0;18,7875;C
+733;No;2;Knight, Mr. Robert J;Male;NA;0;0;0;S
+734;No;2;Berriman, Mr. William John;Male;23;0;0;13;S
+735;No;2;Troupiansky, Mr. Moses Aaron;Male;23;0;0;13;S
+736;No;3;Williams, Mr. Leslie;Male;28,5;0;0;16,1;S
+737;No;3;Ford, Mrs. Edward (Margaret Ann Watson);Female;48;1;3;34,375;S
+738;Yes;1;Lesurer, Mr. Gustave J;Male;35;0;0;512,3292;C
+739;No;3;Ivanoff, Mr. Kanio;Male;NA;0;0;7,8958;S
+740;No;3;Nankoff, Mr. Minko;Male;NA;0;0;7,8958;S
+741;Yes;1;Hawksford, Mr. Walter James;Male;NA;0;0;30;S
+742;No;1;Cavendish, Mr. Tyrell William;Male;36;1;0;78,85;S
+743;Yes;1;Ryerson, Miss. Susan Parker "Suzette";Female;21;2;2;262,375;C
+744;No;3;McNamee, Mr. Neal;Male;24;1;0;16,1;S
+745;Yes;3;Stranden, Mr. Juho;Male;31;0;0;7,925;S
+746;No;1;Crosby, Capt. Edward Gifford;Male;70;1;1;71;S
+747;No;3;Abbott, Mr. Rossmore Edward;Male;16;1;1;20,25;S
+748;Yes;2;Sinkkonen, Miss. Anna;Female;30;0;0;13;S
+749;No;1;Marvin, Mr. Daniel Warner;Male;19;1;0;53,1;S
+750;No;3;Connaghton, Mr. Michael;Male;31;0;0;7,75;Q
+751;Yes;2;Wells, Miss. Joan;Female;4;1;1;23;S
+752;Yes;3;Moor, Master. Meier;Male;6;0;1;12,475;S
+753;No;3;Vande Velde, Mr. Johannes Joseph;Male;33;0;0;9,5;S
+754;No;3;Jonkoff, Mr. Lalio;Male;23;0;0;7,8958;S
+755;Yes;2;Herman, Mrs. Samuel (Jane Laver);Female;48;1;2;65;S
+756;Yes;2;Hamalainen, Master. Viljo;Male;0,67;1;1;14,5;S
+757;No;3;Carlsson, Mr. August Sigfrid;Male;28;0;0;7,7958;S
+758;No;2;Bailey, Mr. Percy Andrew;Male;18;0;0;11,5;S
+759;No;3;Theobald, Mr. Thomas Leonard;Male;34;0;0;8,05;S
+760;Yes;1;Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards);Female;33;0;0;86,5;S
+761;No;3;Garfirth, Mr. John;Male;NA;0;0;14,5;S
+762;No;3;Nirva, Mr. Iisakki Antino Aijo;Male;41;0;0;7,125;S
+763;Yes;3;Barah, Mr. Hanna Assi;Male;20;0;0;7,2292;C
+764;Yes;1;Carter, Mrs. William Ernest (Lucile Polk);Female;36;1;2;120;S
+765;No;3;Eklund, Mr. Hans Linus;Male;16;0;0;7,775;S
+766;Yes;1;Hogeboom, Mrs. John C (Anna Andrews);Female;51;1;0;77,9583;S
+767;No;1;Brewe, Dr. Arthur Jackson;Male;NA;0;0;39,6;C
+768;No;3;Mangan, Miss. Mary;Female;30,5;0;0;7,75;Q
+769;No;3;Moran, Mr. Daniel J;Male;NA;1;0;24,15;Q
+770;No;3;Gronnestad, Mr. Daniel Danielsen;Male;32;0;0;8,3625;S
+771;No;3;Lievens, Mr. Rene Aime;Male;24;0;0;9,5;S
+772;No;3;Jensen, Mr. Niels Peder;Male;48;0;0;7,8542;S
+773;No;2;Mack, Mrs. (Mary);Female;57;0;0;10,5;S
+774;No;3;Elias, Mr. Dibo;Male;NA;0;0;7,225;C
+775;Yes;2;Hocking, Mrs. Elizabeth (Eliza Needs);Female;54;1;3;23;S
+776;No;3;Myhrman, Mr. Pehr Fabian Oliver Malkolm;Male;18;0;0;7,75;S
+777;No;3;Tobin, Mr. Roger;Male;NA;0;0;7,75;Q
+778;Yes;3;Emanuel, Miss. Virginia Ethel;Female;5;0;0;12,475;S
+779;No;3;Kilgannon, Mr. Thomas J;Male;NA;0;0;7,7375;Q
+780;Yes;1;Robert, Mrs. Edward Scott (Elisabeth Walton McMillan);Female;43;0;1;211,3375;S
+781;Yes;3;Ayoub, Miss. Banoura;Female;13;0;0;7,2292;C
+782;Yes;1;Dick, Mrs. Albert Adrian (Vera Gillespie);Female;17;1;0;57;S
+783;No;1;Long, Mr. Milton Clyde;Male;29;0;0;30;S
+784;No;3;Johnston, Mr. Andrew G;Male;NA;1;2;23,45;S
+785;No;3;Ali, Mr. William;Male;25;0;0;7,05;S
+786;No;3;Harmer, Mr. Abraham (David Lishin);Male;25;0;0;7,25;S
+787;Yes;3;Sjoblom, Miss. Anna Sofia;Female;18;0;0;7,4958;S
+788;No;3;Rice, Master. George Hugh;Male;8;4;1;29,125;Q
+789;Yes;3;Dean, Master. Bertram Vere;Male;1;1;2;20,575;S
+790;No;1;Guggenheim, Mr. Benjamin;Male;46;0;0;79,2;C
+791;No;3;Keane, Mr. Andrew "Andy";Male;NA;0;0;7,75;Q
+792;No;2;Gaskell, Mr. Alfred;Male;16;0;0;26;S
+793;No;3;Sage, Miss. Stella Anna;Female;NA;8;2;69,55;S
+794;No;1;Hoyt, Mr. William Fisher;Male;NA;0;0;30,6958;C
+795;No;3;Dantcheff, Mr. Ristiu;Male;25;0;0;7,8958;S
+796;No;2;Otter, Mr. Richard;Male;39;0;0;13;S
+797;Yes;1;Leader, Dr. Alice (Farnham);Female;49;0;0;25,9292;S
+798;Yes;3;Osman, Mrs. Mara;Female;31;0;0;8,6833;S
+799;No;3;Ibrahim Shawah, Mr. Yousseff;Male;30;0;0;7,2292;C
+800;No;3;Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert);Female;30;1;1;24,15;S
+801;No;2;Ponesell, Mr. Martin;Male;34;0;0;13;S
+802;Yes;2;Collyer, Mrs. Harvey (Charlotte Annie Tate);Female;31;1;1;26,25;S
+803;Yes;1;Carter, Master. William Thornton II;Male;11;1;2;120;S
+804;Yes;3;Thomas, Master. Assad Alexander;Male;0,42;0;1;8,5167;C
+805;Yes;3;Hedman, Mr. Oskar Arvid;Male;27;0;0;6,975;S
+806;No;3;Johansson, Mr. Karl Johan;Male;31;0;0;7,775;S
+807;No;1;Andrews, Mr. Thomas Jr;Male;39;0;0;0;S
+808;No;3;Pettersson, Miss. Ellen Natalia;Female;18;0;0;7,775;S
+809;No;2;Meyer, Mr. August;Male;39;0;0;13;S
+810;Yes;1;Chambers, Mrs. Norman Campbell (Bertha Griggs);Female;33;1;0;53,1;S
+811;No;3;Alexander, Mr. William;Male;26;0;0;7,8875;S
+812;No;3;Lester, Mr. James;Male;39;0;0;24,15;S
+813;No;2;Slemen, Mr. Richard James;Male;35;0;0;10,5;S
+814;No;3;Andersson, Miss. Ebba Iris Alfrida;Female;6;4;2;31,275;S
+815;No;3;Tomlin, Mr. Ernest Portage;Male;30,5;0;0;8,05;S
+816;No;1;Fry, Mr. Richard;Male;NA;0;0;0;S
+817;No;3;Heininen, Miss. Wendla Maria;Female;23;0;0;7,925;S
+818;No;2;Mallet, Mr. Albert;Male;31;1;1;37,0042;C
+819;No;3;Holm, Mr. John Fredrik Alexander;Male;43;0;0;6,45;S
+820;No;3;Skoog, Master. Karl Thorsten;Male;10;3;2;27,9;S
+821;Yes;1;Hays, Mrs. Charles Melville (Clara Jennings Gregg);Female;52;1;1;93,5;S
+822;Yes;3;Lulic, Mr. Nikola;Male;27;0;0;8,6625;S
+823;No;1;Reuchlin, Jonkheer. John George;Male;38;0;0;0;S
+824;Yes;3;Moor, Mrs. (Beila);Female;27;0;1;12,475;S
+825;No;3;Panula, Master. Urho Abraham;Male;2;4;1;39,6875;S
+826;No;3;Flynn, Mr. John;Male;NA;0;0;6,95;Q
+827;No;3;Lam, Mr. Len;Male;NA;0;0;56,4958;S
+828;Yes;2;Mallet, Master. Andre;Male;1;0;2;37,0042;C
+829;Yes;3;McCormack, Mr. Thomas Joseph;Male;NA;0;0;7,75;Q
+830;Yes;1;Stone, Mrs. George Nelson (Martha Evelyn);Female;62;0;0;80;NA
+831;Yes;3;Yasbeck, Mrs. Antoni (Selini Alexander);Female;15;1;0;14,4542;C
+832;Yes;2;Richards, Master. George Sibley;Male;0,83;1;1;18,75;S
+833;No;3;Saad, Mr. Amin;Male;NA;0;0;7,2292;C
+834;No;3;Augustsson, Mr. Albert;Male;23;0;0;7,8542;S
+835;No;3;Allum, Mr. Owen George;Male;18;0;0;8,3;S
+836;Yes;1;Compton, Miss. Sara Rebecca;Female;39;1;1;83,1583;C
+837;No;3;Pasic, Mr. Jakob;Male;21;0;0;8,6625;S
+838;No;3;Sirota, Mr. Maurice;Male;NA;0;0;8,05;S
+839;Yes;3;Chip, Mr. Chang;Male;32;0;0;56,4958;S
+840;Yes;1;Marechal, Mr. Pierre;Male;NA;0;0;29,7;C
+841;No;3;Alhomaki, Mr. Ilmari Rudolf;Male;20;0;0;7,925;S
+842;No;2;Mudd, Mr. Thomas Charles;Male;16;0;0;10,5;S
+843;Yes;1;Serepeca, Miss. Augusta;Female;30;0;0;31;C
+844;No;3;Lemberopolous, Mr. Peter L;Male;34,5;0;0;6,4375;C
+845;No;3;Culumovic, Mr. Jeso;Male;17;0;0;8,6625;S
+846;No;3;Abbing, Mr. Anthony;Male;42;0;0;7,55;S
+847;No;3;Sage, Mr. Douglas Bullen;Male;NA;8;2;69,55;S
+848;No;3;Markoff, Mr. Marin;Male;35;0;0;7,8958;C
+849;No;2;Harper, Rev. John;Male;28;0;1;33;S
+850;Yes;1;Goldenberg, Mrs. Samuel L (Edwiga Grabowska);Female;NA;1;0;89,1042;C
+851;No;3;Andersson, Master. Sigvard Harald Elias;Male;4;4;2;31,275;S
+852;No;3;Svensson, Mr. Johan;Male;74;0;0;7,775;S
+853;No;3;Boulos, Miss. Nourelain;Female;9;1;1;15,2458;C
+854;Yes;1;Lines, Miss. Mary Conover;Female;16;0;1;39,4;S
+855;No;2;Carter, Mrs. Ernest Courtenay (Lilian Hughes);Female;44;1;0;26;S
+856;Yes;3;Aks, Mrs. Sam (Leah Rosen);Female;18;0;1;9,35;S
+857;Yes;1;Wick, Mrs. George Dennick (Mary Hitchcock);Female;45;1;1;164,8667;S
+858;Yes;1;Daly, Mr. Peter Denis ;Male;51;0;0;26,55;S
+859;Yes;3;Baclini, Mrs. Solomon (Latifa Qurban);Female;24;0;3;19,2583;C
+860;No;3;Razi, Mr. Raihed;Male;NA;0;0;7,2292;C
+861;No;3;Hansen, Mr. Claus Peter;Male;41;2;0;14,1083;S
+862;No;2;Giles, Mr. Frederick Edward;Male;21;1;0;11,5;S
+863;Yes;1;Swift, Mrs. Frederick Joel (Margaret Welles Barron);Female;48;0;0;25,9292;S
+864;No;3;Sage, Miss. Dorothy Edith "Dolly";Female;NA;8;2;69,55;S
+865;No;2;Gill, Mr. John William;Male;24;0;0;13;S
+866;Yes;2;Bystrom, Mrs. (Karolina);Female;42;0;0;13;S
+867;Yes;2;Duran y More, Miss. Asuncion;Female;27;1;0;13,8583;C
+868;No;1;Roebling, Mr. Washington Augustus II;Male;31;0;0;50,4958;S
+869;No;3;van Melkebeke, Mr. Philemon;Male;NA;0;0;9,5;S
+870;Yes;3;Johnson, Master. Harold Theodor;Male;4;1;1;11,1333;S
+871;No;3;Balkic, Mr. Cerin;Male;26;0;0;7,8958;S
+872;Yes;1;Beckwith, Mrs. Richard Leonard (Sallie Monypeny);Female;47;1;1;52,5542;S
+873;No;1;Carlsson, Mr. Frans Olof;Male;33;0;0;5;S
+874;No;3;Vander Cruyssen, Mr. Victor;Male;47;0;0;9;S
+875;Yes;2;Abelson, Mrs. Samuel (Hannah Wizosky);Female;28;1;0;24;C
+876;Yes;3;Najib, Miss. Adele Kiamie "Jane";Female;15;0;0;7,225;C
+877;No;3;Gustafsson, Mr. Alfred Ossian;Male;20;0;0;9,8458;S
+878;No;3;Petroff, Mr. Nedelio;Male;19;0;0;7,8958;S
+879;No;3;Laleff, Mr. Kristo;Male;NA;0;0;7,8958;S
+880;Yes;1;Potter, Mrs. Thomas Jr (Lily Alexenia Wilson);Female;56;0;1;83,1583;C
+881;Yes;2;Shelley, Mrs. William (Imanita Parrish Hall);Female;25;0;1;26;S
+882;No;3;Markun, Mr. Johann;Male;33;0;0;7,8958;S
+883;No;3;Dahlberg, Miss. Gerda Ulrika;Female;22;0;0;10,5167;S
+884;No;2;Banfield, Mr. Frederick James;Male;28;0;0;10,5;S
+885;No;3;Sutehall, Mr. Henry Jr;Male;25;0;0;7,05;S
+886;No;3;Rice, Mrs. William (Margaret Norton);Female;39;0;5;29,125;Q
+887;No;2;Montvila, Rev. Juozas;Male;27;0;0;13;S
+888;Yes;1;Graham, Miss. Margaret Edith;Female;19;0;0;30;S
+889;No;3;Johnston, Miss. Catherine Helen "Carrie";Female;NA;1;2;23,45;S
+890;Yes;1;Behr, Mr. Karl Howell;Male;26;0;0;30;C
+891;No;3;Dooley, Mr. Patrick;Male;32;0;0;7,75;Q

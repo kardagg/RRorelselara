@@ -1,0 +1,1 @@
+Dessa skript är inte tänkta att köras som de är. Datan från dem finns redan tillgänglig i mappen DataFiler. Det är tänkt som väglednig för den som vill samla in någon annan data från andra websidor.
